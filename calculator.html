@@ -1,0 +1,31 @@
+<!doctype html> 
+<html lang='en'>
+<head>
+	<title>Calculator</title>
+	<link href="StyleSheetModule2.css" rel="stylesheet" type="text/css"/>
+</head>
+<body> 
+    <form action="calculator.php" method="GET">
+		<table>
+			<tr>
+				<th colspan="4">Calculator</th>
+			</tr>
+			<tr>
+				<td colspan="4">First Number: <input type="number" step="any" name="firstNumber"/></td>
+			</tr>
+			<tr>
+				<td>Plus <input type="radio" name="operation" value="plus"/></td>
+				<td>Minus <input type="radio" name="operation" value="minus"/></td>
+				<td>Times <input type="radio" name="operation" value="times"/></td>
+				<td>Over <input type="radio" name="operation" value="by"/></td>
+			</tr>
+			<tr>
+				<td colspan="4">Second Number: <input type="number" step="any" name="secondNumber"/></td>
+			</tr>
+			<tr>
+				<th colspan="4"><input type="submit" value="Calculate"/></th>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
